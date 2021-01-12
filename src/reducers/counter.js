@@ -1,6 +1,11 @@
+// 머ㅓㅇ청한 컴포넌트
 import * as types from "../actions/ActionTypes";
 
-export default function counter(state = initialSate, action) {
+const initialState = {
+    number: 0
+};
+
+export default function counter(state = initialState, action) {
   switch (action.type) {
     case types.INCREMENT:
       return { ...state, number: state.number + 1 };
