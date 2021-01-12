@@ -1,8 +1,8 @@
 import React, { Component, PropTypes} from 'react';
 
 const propTypes = {
-    number:PropTypes.number
-}
+    number: PropTypes.number
+};
 
 const defaultProps = {
     number : -1
